@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            Snackbar.make(view, "ОПА", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "log", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
 
                 // view.findViewById<Button>(R.id.button_first).setOnClickListener {
